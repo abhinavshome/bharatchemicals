@@ -34,7 +34,7 @@ body {
 }
 
 .about-us {
-    background-color: #333;
+    background-color: #111;
     color: #fff;
     padding: 50px 0;
 }
@@ -46,10 +46,87 @@ body {
 .about-us  section:last-child header {
     font-size: 40px;
     padding-bottom: 20px;
+    font-weight: 200;
 }
 
 .about-us  section:last-child article {
     font-size: 16px;
     line-height: 22px;
     font-weight: 200;
+}
+
+.products h2 {
+    font-weight: 200;
+    font-size: 40px;
+}
+
+.products img {
+    height: 200px;
+}
+
+.products header {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.products .desc.left > div {
+    padding-left: 10px;
+}
+
+.products .right {
+    flex-direction: row-reverse;
+}
+
+.vspace {
+    height: 20px;
+}
+
+.why-us {
+    background-color: #111;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.why-us h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-weight: 200;
+}
+
+.why-items {
+    flex-wrap: wrap;
+    gap: 0 190px;
+}
+
+.why-items > section{
+    width: 400px;
+    padding-bottom: 40px;
+}
+
+.why-items > section > header {
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.why-items > section > article {
+    font-weight: 200;
+    font-weight: 14px;
+    width: 400px;
+}
+
+.contact {
+    padding: 50px;
+    font-weight: 200;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact h2 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.contact > img {
+    width: 500px;
 }
